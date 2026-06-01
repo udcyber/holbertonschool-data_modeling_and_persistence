@@ -854,7 +854,7 @@ You must assume:
 - each file starts from a clean copy of the provided dataset
 - you must not modify the schema
 
-6. Deleting Rows
+## 6. Deleting Rows
 
 You must create the following SQL files.
 
@@ -1023,7 +1023,7 @@ You must assume:
 
 Each file will be executed independently.
 
-7. Ordering and Limiting Results
+## 7. Ordering and Limiting Results
 
 You must create the following SQL files.
 
