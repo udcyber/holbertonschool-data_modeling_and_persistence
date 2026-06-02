@@ -1,0 +1,3 @@
+UPDATE books
+SET price = price - 10%
+WHERE genre = 'Tech' AND stock > 5; 
