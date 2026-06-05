@@ -1,3 +1,4 @@
-SELECT tite, price, stock
+SELECT genre='Tech'
 FROM books
-WHERE genre = 'Tech' AND published_year >= '2000'
+WHERE published_year IN ('2000' OR published_year > '2000')
+GROUP BY title, price, stock;
