@@ -1,3 +1,3 @@
 UPDATE books
-SET stock = stock + 5
+SET stock = stock + 3
 WHERE stock < 5;
