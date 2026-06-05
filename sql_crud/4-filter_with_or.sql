@@ -1,3 +1,3 @@
 SELECT title, genre
-FOR books
+FROM books
 WHERE genre = 'Fantasy' OR price < 10;
