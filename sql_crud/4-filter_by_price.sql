@@ -1,3 +1,3 @@
 SELECT title, price
 FROM books
-WHERE price > 20
+WHERE price > 20;

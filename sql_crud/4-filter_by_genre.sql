@@ -1,3 +1,3 @@
 SELECT title, author
 FROM books
-WHERE genre = 'Tech'
+WHERE genre='Tech';
