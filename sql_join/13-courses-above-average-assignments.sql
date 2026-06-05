@@ -5,7 +5,7 @@ GROUP BY c.title
 HAVING COUNT(a.id) > (
     SELECT AVG(assign_count)
     FROM (
-        SELECT COUT(*) AS assign_count
+        SELECT COUNT(*) AS assign_count
         FROM assignments
         GROUP BY course_id
     )
