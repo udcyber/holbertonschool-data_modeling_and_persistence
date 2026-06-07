@@ -689,7 +689,7 @@ You will use:
 ## 6. Find Courses with Above-Average Enrollment
 
 Write a SQL query that returns:
-= the course title
+- the course title
 
 Only include courses where the number of enrollments is greater than the average across all courses.
 
