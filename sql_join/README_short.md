@@ -369,3 +369,52 @@ Directory: sql_join
 File: 6-courses-above-average.sql  
 
 --------------------------------------------------------------------------------------
+
+## 7. Retrieve Courses and Their Enrollment Count
+
+Relevant Tables
+
+courses
+- ```id```
+- ```title```
+
+enrollments
+- ```course_id```
+- ```student_id```
+
+Write a SQL query that returns:
+- the course title
+- the number of enrolled students
+
+Expected Output
+
+Your result must contain exactly two columns, in this order:
+```
+course_title | enrollment_count
+```
+Requirements
+
+You must use:
+- ```LEFT JOIN```
+- ```GROUP BY```
+- ```COUNT()```
+
+Column names must match exactly:
+- ```course_title```
+- ```enrollment_count```
+
+Results must be in descending order of ```enrollment_count```, then ascending order of ```course_title```.
+
+Output Example (format only)
+```
+Databases | 2
+Web Development | 1
+Operating Systems | 0
+```
+Repo:
+
+GitHub repository: holbertonschool-data_modeling_and_persistence  
+Directory: sql_join  
+File: 7-course-enrollment-count.sql  
+
+--------------------------------------------------------------------------------------
